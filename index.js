@@ -2,9 +2,13 @@ class Race {
     runners = []
     
     constructor(name, kilometers = 42, terrain = "asphalt", requiredRunnerAge, requiredRunnerGender, startTime, duration){
-        this.name = name
-        this.kilometers = kilometers
-        //fill here
+        this.name = name;
+        this.kilometers = kilometers;
+        this.terrain = terrain;
+        this.requiredRunnerAge = requiredRunnerAge;
+        this.requiredRunnerGender = requiredRunnerGender;
+        this.startTime = startTime;
+        this.duration = duration;
     }
 
     start(){
